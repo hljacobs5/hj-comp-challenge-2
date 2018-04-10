@@ -1,0 +1,328 @@
+
+* {
+  margin: 0px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+h1 {
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #2B2B2B;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+header {
+  background-color: #2b2b2b;
+  color: #F7FFF7;
+  height: 150px;
+  margin-top: -160px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+header ul li img {
+  height: 23px;
+  margin: -3px 0px 0px 5px;
+}
+header h1, header img {
+  float: right;
+  font-size: 21px;
+}
+header p {
+  float: right;
+  font-size: 21px;
+  margin: 19px 7px 22px 17px
+}
+header img {
+  height: 12px;
+}
+
+img {
+  height: 60px;
+}
+
+li {
+  display: inline-block;
+  float: left;
+  font-size: 123%;
+  margin: 98px 10px 10px 10px;
+}
+
+.movie-name {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 5px 22px 0px 0px;
+}
+
+.media-logo {
+  height: 200px;
+  width: 200px;
+  margin-right: -168px;
+}
+
+body {
+  background-color: #EFEFEF;
+}
+
+.newreleases-li {
+  color: #9577A2;
+  text-shadow: 2px;
+}
+
+.greybox {
+  font-size: 13px;
+  color: #2B2B2B;
+  background-color: #f1f1f1;
+  height: 50px;
+  margin-top: 14%;
+  padding-left: 7px;
+  padding-top: 7px;
+  width: 90%;
+}
+
+.account-username {
+  margin-bottom: 10px;
+}
+
+.menu {
+  display: none;
+}
+
+.main-section {
+  margin: 160px auto 0px auto;
+  width: 95%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+    float: left;
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+.header-card img {
+  display: none;
+}
+
+.header-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-body {
+  margin-left: 15px;
+}
+
+.header-card .icons {
+  margin: auto;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+}
+
+.down-arrow {
+  margin-left: 10px;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+}
+
+.header-card img {
+ margin: auto;
+}
+
+.header-card-1 {
+  background-image: url(images/lady-bird.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 145px;
+  width: 100%;
+}
+
+.header-card-2 {
+  background-image: url(images/theshapeofwater.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 145px;
+  width: 100%;
+}
+
+.header-card-3 {
+  background-image: url(images/phantom-thread.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 145px;
+  width: 100%;
+}
+
+.header-card-4 {
+  background-image: url(images/getout.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 145px;
+  width: 100%;
+}
+
+.header-card-5 {
+  background-image: url(images/dunkirk.jpg);
+  background-size: 100%;
+  height: 145px;
+  width: 100%;
+}
+
+.header-card-6 {
+  background-image: url(images/beautyandthebeast.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 145px;
+  width: 100%;
+}
+
+.header-card-7 {
+  background-image: url(images/darkesthour.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 145px;
+  width: 100%;
+}
+
+
+.header-card-8 {
+  background-image: url(images/thepost.jpg);
+  background-position: center;
+  background-size: 100%;
+  height: 145px;
+  opacity: .5;
+  width: 100%;
+}
+
+.header-card {
+    background-size: cover;
+    height: 142px;
+  }
+
+.movie-name {
+  margin-right: 21px;
+  margin-top: 10px;
+  font-size: 150%
+}
+
+.down-arrow {
+  margin: 21px 35px 0px 5px;
+}
+
+.header-icon {
+  display: inline-grid;
+  height: 300px;
+  width: 300px;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #9577A2;
+}
+
+.username:hover {
+  cursor: pointer;
+  color: #9577A2;
+}
+
+
+.header-card-1:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header-card-2:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header-card-3:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header-card-4:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header-card-5:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header-card-6:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header-card-7:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.header-card-8:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+}
+
+.individual-cards {
+  border: 2px solid #63595C;
+     box-shadow: 3px 3px 16px #49205B;
+    height: 400px;
+    margin: 10px;
+    width: 300px;
+    background-color: white;
+
+}
+
+.logo {
+ clear: both;
+ display: inline-block;
+ height: 60px;
+ margin: 30px 36px 0px 0px;
+}
+
+
+
+
+.main-section {
+  margin: 160px auto 0px auto;
+  width: 95%;
+}
+
+.user {
+  height: 25px;
+  margin-top: 13px;
+}
+
+
+
