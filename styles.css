@@ -1,7 +1,7 @@
 
 * {
   margin: 0px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
 }
 
@@ -71,6 +71,9 @@ li {
   margin-top: 40px;
 }
 
+.botton-body {
+  padding-top: 20px;
+}
 body {
   background-color: #EFEFEF;
 }
@@ -81,7 +84,7 @@ body {
 }
 
 .greybox {
-  font-size: 13px;
+  font-size: 17px;
   color: #2B2B2B;
   background-color: #f1f1f1;
   height: 50px;
@@ -91,6 +94,9 @@ body {
   width: 90%;
 }
 
+.genre {
+  margin-top: 8px;
+}
 .account-username {
   margin-bottom: 10px;
 }
@@ -333,5 +339,20 @@ li:hover {
   margin-top: 13px;
 }
 
+@media screen and (max-width: 650px) {
+
+  li {
+    display: inline-block;
+    font-size: 110%;
+    font-weight: 300;
+    margin: 27px 10px -x4px 10px;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    float: left;
+  }
+}
 
 
