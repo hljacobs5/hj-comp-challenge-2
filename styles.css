@@ -29,6 +29,7 @@ header {
   width: 100%;
   z-index: 2;
 }
+
 header ul li img {
   height: 23px;
   margin: -3px 0px 0px 5px;
@@ -64,9 +65,10 @@ li {
 }
 
 .media-logo {
-  height: 200px;
-  width: 200px;
-  margin-right: -168px;
+  height: 150px;
+  width: 150px;
+  margin-right: -180px;
+  margin-top: 40px;
 }
 
 body {
@@ -140,6 +142,12 @@ a {
 .down-arrow {
   margin-left: 10px;
 }
+
+.down-arrow:hover {
+  cursor: pointer;
+  background-color: url(icons/whitedown-arrow.svg);
+}
+
 
 .cards {
   display: grid;
@@ -234,6 +242,7 @@ a {
 }
 
 .header-icon {
+  position: relative;
   display: inline-grid;
   height: 300px;
   width: 300px;
@@ -294,13 +303,13 @@ li:hover {
   display: none;
 }
 
-.individual-cards {
-  border: 2px solid #63595C;
-     box-shadow: 3px 3px 16px #49205B;
-    height: 400px;
-    margin: 10px;
-    width: 300px;
-    background-color: white;
+.card-template {
+  /*border: px solid #63595C;*/
+  box-shadow: 3px 3px 16px #49205B;
+  height: 400px;
+  margin: 10px;
+  width: 300px;
+  background-color: white;
 
 }
 
