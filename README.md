@@ -24,4 +24,4 @@
 
 ### **Template:** 
 
-![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/static-comp-example.png)
+![alt text](https://github.com/hljacobs5/hj-comp-challenge-2/blob/master/Screen%20Shot%202018-04-06%20at%2011.37.35%20AM.png)
