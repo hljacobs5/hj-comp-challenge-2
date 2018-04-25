@@ -26,6 +26,6 @@
 
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-2/blob/master/Screen%20Shot%202018-04-06%20at%2011.37.35%20AM.png)
 
-### **My version:**
+### **My version:** https://hljacobs5.github.io/hj-comp-challenge-2/
 
 ![alt text](https://github.com/hljacobs5/hj-comp-challenge-2/blob/master/mycomp2.png)
