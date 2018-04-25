@@ -23,3 +23,5 @@
 #### Site must be responsive
 
 ### **Template:** 
+
+![alt text](https://github.com/hljacobs5/hj-comp-challenge-3/blob/master/static-comp-example.png)
